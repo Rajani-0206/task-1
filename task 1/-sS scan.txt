@@ -1,0 +1,53 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-20 15:59 +0530
+Nmap scan report for 192.168.0.1
+Host is up (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 7C:F1:7E:39:3B:3E (TP-Link PTE.)
+
+Nmap scan report for 192.168.0.3
+Host is up (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+9080/tcp open  glrpc
+MAC Address: 08:FF:24:48:0E:CC (Shenzhen Skyworth Digital  Technology)
+
+Nmap scan report for 192.168.0.5
+Host is up (0.017s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 42:7B:28:C9:A7:0E (Unknown)
+
+Nmap scan report for 192.168.0.6
+Host is up (0.0073s latency).
+All 1000 scanned ports on 192.168.0.6 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 36:BA:A5:24:6C:6C (Unknown)
+
+Nmap scan report for 192.168.0.8
+Host is up (0.036s latency).
+All 1000 scanned ports on 192.168.0.8 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 3C:0A:F3:4C:36:95 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.0.7
+Host is up (0.000071s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 11.24 seconds

@@ -1,0 +1,92 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-20 15:38 +0530
+Nmap scan report for 192.168.0.1
+Host is up (0.0093s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        Dropbear sshd 2020.80 (protocol 2.0)
+23/tcp   open  tcpwrapped
+53/tcp   open  domain     dnsmasq 2.85
+80/tcp   open  http
+1900/tcp open  upnp       Portable SDK for UPnP devices 1.6.19 (Linux 4.4.198; UPnP 1.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.98%I=7%D=10/20%Time=68F60A20%P=i686-pc-windows-windows%r
+SF:(GetRequest,112E,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html;
+SF:\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security
+SF:-Policy:\x20frame-ancestors\x20'none'\r\nContent-Length:\x2081207\r\nX-
+SF:Frame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20JSESSIONID=deleted;\x20E
+SF:xpires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;\x20Path=/;\x20Http
+SF:Only\r\nConnection:\x20keep-alive\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x2
+SF:0\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\r\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transition
+SF:al\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:
+SF:lang=\"en\"\x20lang=\"en\">\r\n<meta\x20http-equiv=\"Content-Type\"\x20
+SF:content=\"text/html;\x20charset=utf-8\"/>\r\n\r\n<head>\r\n\x20\x20\x20
+SF:\x20<link\x20rel=\"shortcut\x20icon\"\x20type=\"image/x-icon\"\x20href=
+SF:\"\.\./img/favicon\.ico\"/>\r\n\x20\x20\x20\x20<link\x20rel=\"styleshee
+SF:t\"\x20href=\"\.\./css/main\.css\"/>\r\n\x20\x20\x20\x20<link\x20rel=\"
+SF:stylesheet\"\x20href=\"\.\./css/login\.css\"/>\r\n\x20\x20\x20\x20<link
+SF:\x20rel=\"stylesheet\"\x20href=\"\.\./css/jquery\.tpInput\.css\"/>\r\n\
+SF:r\n\x20\x20\x20\x20<script\x20src=\"\.\./js/jquery-1\.8\.3\.min\.js\"\x
+SF:20type=\"text/javascript\"")%r(HTTPOptions,165,"HTTP/1\.1\x20405\x20Met
+SF:hod\x20Not\x20Allowed\r\nContent-Type:\x20text/html;\x20charset=utf-8\r
+SF:\nContent-Length:\x20124\r\nX-Frame-Options:\x20SAMEORIGIN\r\nSet-Cooki
+SF:e:\x20JSESSIONID=deleted;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00
+SF::01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\n\r\n<html
+SF:><head><title>405\x20Method\x20Not\x20Allowed</title></head><body><cent
+SF:er><h1>405\x20Method\x20Not\x20Allowed</h1></center></body></html>")%r(
+SF:RTSPRequest,165,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nConten
+SF:t-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x20124\r\nX-F
+SF:rame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20JSESSIONID=deleted;\x20Ex
+SF:pires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;\x20Path=/;\x20HttpO
+SF:nly\r\nConnection:\x20close\r\n\r\n<html><head><title>405\x20Method\x20
+SF:Not\x20Allowed</title></head><body><center><h1>405\x20Method\x20Not\x20
+SF:Allowed</h1></center></body></html>");
+MAC Address: 7C:F1:7E:39:3B:3E (TP-Link PTE.)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:4.4.198
+
+Nmap scan report for 192.168.0.3
+Host is up (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE         VERSION
+8008/tcp open  http?
+8009/tcp open  ssl/castv2      Ninja Sphere Chromecast driver
+8443/tcp open  ssl/https-alt?
+9000/tcp open  ssl/cslistener?
+9080/tcp open  glrpc?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9080-TCP:V=7.98%I=7%D=10/20%Time=68F60A20%P=i686-pc-windows-windows
+SF:%r(GetRequest,99,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2020\x20Oct\
+SF:x202025\x2015:38:32\x20IST\r\nServer:\x20NRDP/2025\.1\.7\.0\r\nConnecti
+SF:on:\x20close\r\nCache-Control:\x20no-cache\r\nContent-Length:\x209\r\n\
+SF:r\nstatus=ok")%r(FourOhFourRequest,99,"HTTP/1\.0\x20200\x20OK\r\nDate:\
+SF:x20Mon,\x2020\x20Oct\x202025\x2015:39:17\x20IST\r\nServer:\x20NRDP/2025
+SF:\.1\.7\.0\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nCont
+SF:ent-Length:\x209\r\n\r\nstatus=ok");
+MAC Address: 08:FF:24:48:0E:CC (Shenzhen Skyworth Digital  Technology)
+
+Nmap scan report for 192.168.0.5
+Host is up (0.068s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE VERSION
+5060/tcp filtered sip
+MAC Address: 42:7B:28:C9:A7:0E (Unknown)
+
+Nmap scan report for 192.168.0.8
+Host is up (0.094s latency).
+All 1000 scanned ports on 192.168.0.8 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 3C:0A:F3:4C:36:95 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.0.7
+Host is up (0.00076s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE         VERSION
+135/tcp open  msrpc           Microsoft Windows RPC
+139/tcp open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+902/tcp open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (5 hosts up) scanned in 153.35 seconds
