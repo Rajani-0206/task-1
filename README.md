@@ -6,5 +6,5 @@ The 5 open ports were namely: 135,139, 445, 902, 912; the first three ports are 
 The network is now checked for the packet capture in wireshark. Along with the other packets, data packets under TCP with the target IP are found with SYN/ACK responses. This indicates that the packets were sent to an open port of the target IP address and the response by the open ports were recorded as SYN/ACK. 
 The open ports with potential risks have been identified. 
 The ports with potential risks are mostly the public accessible ports like- 80 ( http), 22 (SSH), 139(NetBios), 445(SMB), 912(Apex relay service), 902(VMware service console). All these ports are used major source of exploits in order to disrupt the internals of a system or spy on a system. 139, 445 are used by for SMB exploits while the 912, 902 are used mostly for remote command execution on the target system.
-Thus, scans are conduted and the results are recorded as screen shots and text files.
-They are compiled in a folder in this repository with the name -task 1.
+Thus, scans are conduted and the results are recorded as screen shots and text files. They are compiled in a folder in this repository with the name -task 1.
+The codes used for this in the nmap are:nmap -sn <target IP range>; nmap -sV <target IP range>; nmap -sS <target IP range>; nmap --script vuln <target IP>; nmap --script smb-os-discovery, smb-enum-shares <target IP>
